@@ -1,0 +1,1763 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahmed Eid</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" id="bootstrapCSS" />
+    <link rel="stylesheet" href="css/styel.css" />
+  </head>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#navbar"
+    data-bs-offset="100"
+    tabindex="0"
+  >
+
+    <div class="glow"></div>
+    <nav class="navbar navbar-expand-lg bg-nav fixed-top" id="navbar">
+      <div class="container my-container">
+        <div
+          class="brand d-flex justify-content-center align-items-center gap-3"
+        >
+          <div class="icon-main text-white primary-them-bg rounded-3">
+            <img
+              src="./assets/imgs/WhatsApp Image 2026-07-31 at 9.45.13 PM.jpeg"
+              class="w-100 h-100 rounded-3"
+              alt=""
+            />
+          </div>
+          <h1
+            class=" fw-bold fs-25 h1-nav primary-them-color"
+            data-en="Ahmed Eid"
+            data-ar="احمد عيد"
+          >
+            Ahmed Eid</h1
+          >
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-2">
+            <li class="nav-item position-relative">
+              <a
+                class="nav-link active fs-18 fw-bold"
+                aria-current="page"
+                href="#الرئيسية"
+                data-en="Home"
+                data-ar="الرئيسية"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item position-relative">
+              <a
+                class="nav-link fw-bold fs-18"
+                href="#عني"
+                data-en="About"
+                data-ar="عني"
+                >About</a
+              >
+            </li>
+            <li class="nav-item position-relative">
+              <a
+                class="nav-link fw-bold fs-18"
+                href="#الأعمال"
+                data-en="Work"
+                data-ar="الأعمال"
+                >Work</a
+              >
+            </li>
+            <li class="nav-item position-relative">
+              <a
+                class="nav-link fw-bold fs-18"
+                href="#الخبرة"
+                data-en="Experience"
+                data-ar="الخبرة"
+                >Experience</a
+              >
+            </li>
+            <!-- <li class="nav-item position-relative">
+              <a class="nav-link fw-bold fs-18" href="#التوصيات" data-en="Testimonials" data-ar="التوصيات">Testimonials</a>
+            </li> -->
+            <li class="nav-item position-relative">
+              <a
+                class="nav-link fw-bold fs-18"
+                href="#تواصل"
+                data-en="Contact"
+                data-ar="تواصل"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <button
+            class="lang-switch me-2"
+            id="langSwitch"
+            type="button"
+            title="Switch Language"
+          >
+            <i class="fa-solid fa-globe"></i>
+            <span id="langText">AR</span>
+          </button>
+          <label class="switch">
+            <input type="checkbox" id="modeToggle" class="bg-danger p-2" />
+            <span class="track bg-danger"></span>
+            <span class="stars"> <span></span><span></span><span></span> </span>
+            <span
+              class="thumb d-flex justify-content-center align-items-center rounded-circle position-absolute"
+            >
+              <span class="sun"><i class="fa-solid fa-sun"></i></span>
+              <span class="moon texd"><i class="fa-solid fa-moon"></i></span>
+            </span>
+          </label>
+        </div>
+      </div>
+    </nav>
+    <div>
+      <div
+        class="offcanvas offcanvas-end customizer-sidebar border-0 text-white"
+        tabindex="-1"
+        id="appearanceSidebar"
+        aria-labelledby="appearanceSidebarLabel"
+      >
+        <button
+          class="btn-setting-tab d-flex align-items-center justify-content-center"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#appearanceSidebar"
+          aria-controls="appearanceSidebar"
+        >
+          <i class="fa-solid fa-gear fa-spin"></i>
+        </button>
+
+        <div
+          class="offcanvas-header d-flex align-items-center justify-content-between px-4 py-3 border-bottom border-ctext-color-subtle"
+        >
+          <h5
+            class="offcanvas-title fw-bold d-flex align-items-center tool-name gap-2"
+            id="appearanceSidebarLabel"
+          >
+            <i class="fa-solid fa-sliders text-main"></i>
+            <span data-en="Customize Appearance" data-ar="تخصيص المظهر"
+              >Customize Appearance</span
+            >
+          </h5>
+          <button
+            type="button"
+            class="btn-close-custom d-flex align-items-center justify-content-center"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          >
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+
+        <div
+          class="offcanvas-body px-4 py-4 d-flex flex-column justify-content-between"
+        >
+          <div>
+            <div class="settings-group mb-5">
+              <label
+                class="form-label text-color fs-15 fw-bold mb-3 d-flex align-items-center gap-2"
+              >
+                <i class="fa-solid fa-font"></i>
+                <span data-en="Font Type" data-ar="نوع الخط">Font Type</span>
+              </label>
+
+              <div class="d-flex flex-column gap-3">
+                <label
+                  class="font-select-card position-relative p-3 rounded-4 d-flex flex-column text-end cursor-pointer"
+                >
+                  <input
+                    type="radio"
+                    name="fontOption"
+                    value="'Alexandria', sans-serif"
+                    class="d-none"
+                  />
+                  <span class="font-title tool-name fw-bold fs-18"
+                    >cairo</span
+                  >
+                  <span class="font-subtitle skill-desc fs-13 mt-1"
+                    >cairo</span
+                  >
+                  <i
+                    class="fa-solid fa-circle-check check-icon position-absolute"
+                  ></i>
+                </label>
+
+                <label
+                  class="font-select-card position-relative p-3 rounded-4 d-flex flex-column text-end cursor-pointer active"
+                >
+                  <input
+                    type="radio"
+                    name="fontOption"
+                    value="'Tajawal', sans-serif"
+                    class="d-none"
+                    checked
+                  />
+                  <span class="font-title tool-name fw-bold fs-18"
+                    >Tajawal</span
+                  >
+                  <span
+                    class="font-subtitle skill-desc fs-13 mt-1"
+                    data-en="Default Font"
+                    data-ar="الخط الافتراضي"
+                    >Default Font</span
+                  >
+                  <i
+                    class="fa-solid fa-circle-check check-icon position-absolute"
+                  ></i>
+                </label>
+
+                <label
+                  class="font-select-card position-relative p-3 rounded-4 d-flex flex-column text-end cursor-pointer"
+                >
+                  <input
+                    type="radio"
+                    name="fontOption"
+                    value="'Cairo', sans-serif"
+                    class="d-none"
+                  />
+                  <span class="font-title fw-bold tool-name fs-18">Cairo</span>
+                  <span class="font-subtitle skill-desc fs-13 mt-1">Cairo</span>
+                  <i
+                    class="fa-solid fa-circle-check check-icon position-absolute"
+                  ></i>
+                </label>
+              </div>
+            </div>
+
+            <div class="settings-group mb-4">
+              <label
+                class="form-label text-muted fs-15 fw-bold mb-3 d-flex align-items-center gap-2"
+              >
+                <i class="fa-solid fa-palette"></i>
+                <span data-en="Theme Color" data-ar="لون الثيم"
+                  >Theme Color</span
+                >
+              </label>
+
+              <div class="color-picker-grid d-flex flex-wrap gap-3">
+                <label class="color-circle-wrapper">
+                  <input
+                    type="radio"
+                    name="themeColor"
+                    value="#26a69a"
+                    class="d-none"
+                  />
+                  <span
+                    class="color-circle"
+                    style="background-color: #26a69a"
+                  ></span>
+                </label>
+
+                <label class="color-circle-wrapper">
+                  <input
+                    type="radio"
+                    name="themeColor"
+                    value="#00bfa5"
+                    class="d-none"
+                  />
+                  <span
+                    class="color-circle"
+                    style="background-color: #00bfa5"
+                  ></span>
+                </label>
+
+                <label class="color-circle-wrapper">
+                  <input
+                    type="radio"
+                    name="themeColor"
+                    value="#ff5252"
+                    class="d-none"
+                  />
+                  <span class="color-circle" style="background: #ff5252"></span>
+                </label>
+
+                <label class="color-circle-wrapper active">
+                  <input
+                    type="radio"
+                    name="themeColor"
+                    value="#7f5ff4"
+                    class="d-none"
+                    checked
+                  />
+                  <span
+                    class="color-circle"
+                    style="background-color: #7f5ff4"
+                  ></span>
+                </label>
+
+                <!-- كود لون Orange -->
+                <label class="color-circle-wrapper">
+                  <input
+                    type="radio"
+                    name="themeColor"
+                    value="#ff9100"
+                    class="d-none"
+                  />
+                  <span
+                    class="color-circle"
+                    style="background-color: #ff9100"
+                  ></span>
+                </label>
+
+                <label class="color-circle-wrapper">
+                  <input
+                    type="radio"
+                    name="themeColor"
+                    value="#ff5252"
+                    class="d-none"
+                  />
+                  <span
+                    class="color-circle"
+                    style="background-color: #ff5252"
+                  ></span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-100 pt-3">
+            <button
+              class="btn btn-reset-custom w-100 py-3 rounded-4 d-flex align-items-center justify-content-center gap-2 fw-bold"
+              type="button"
+            >
+              <i class="fa-solid fa-rotate-right"></i>
+              <span data-en="Reset" data-ar="إعادة الضبط">Reset</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header
+      class="mt-5 hero-section bg-section py-5 overflow-hidden"
+      id="الرئيسية"
+    >
+      <div class="container my-container position-relative z-3">
+        <div class="row g-5 row-reverse">
+          <div class="col-lg-6">
+            <div
+              class="badge-wrapper mb-4 d-inline-flex align-items-center justify-content-center gap-3"
+            >
+              <span class="pulse-dot-green"></span>
+              <span
+                class="badge-text fs-15 text-main-green"
+                data-en="Available for Freelance"
+                data-ar="متاح للشغل الحر"
+                >Available for Freelance</span
+              >
+            </div>
+
+            <div class=" ">
+              <div class="head">
+                <p
+                  class="fs-20 mb-1 fw-bold hero-role"
+                  data-en="Frontend Developer"
+                  data-ar="مطور واجهات أمامية"
+                >
+                  Frontend Developer
+                </p>
+
+                <h1
+                  class="primary-them-color mb-3 fw-bold"
+                  data-en="Creating Digital Experiences That Inspire. Designed for Performance."
+                  data-ar="أصنع تجارب رقمية تُلهم المستخدمين. مصممة لتحقيق أفضل أداء."
+                >
+                  Creating Digital Experiences
+                  <br />
+                  <span class="primary-them-color">That Inspire.</span>
+                  <br />
+                  Designed for Performance.
+                </h1>
+
+                <p
+                  class="hero-description fs-18 mb-4 text-start"
+                  data-en="I craft fast, responsive, and modern websites with clean code and seamless user experiences."
+                  data-ar="أطور مواقع ويب سريعة ومتجاوبة وعصرية، مع كود نظيف وتجربة استخدام سلسة."
+                >
+                  I craft fast, responsive, and modern websites with clean code
+                  and seamless user experiences.
+                </p>
+              </div>
+
+              <div
+                class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start mb-5"
+              >
+                <a
+                  href="#الأعمال"
+                  class="btn btn-primary-custom d-flex align-items-center gap-2 primary-them-bg"
+                >
+                  <span data-en="Explore My Work" data-ar="استكشف أعمالي"
+                    >Explore My Work</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-left text-white arrow-hover hero-arrow"
+                  ></i>
+                </a>
+                <a
+                  href="#تواصل"
+                  class="btn btn-secondary-custom shadow-sm d-flex align-items-center gap-2"
+                >
+                  <span data-en="Get In Touch" data-ar="تواصل معي"
+                    >Get In Touch</span
+                  >
+                  <i class="fa-regular fa-paper-plane code-hover"></i>
+                </a>
+              </div>
+
+              <div
+                class="d-flex flex-wrap gap-2 justify-content-center justify-content-lg-start align-items-center"
+              >
+                <div
+                  class="tech-tag border-react d-flex align-items-center gap-2"
+                >
+                  <i class="fa-brands fa-react text-info rotate-180"></i>
+                  <span>React</span>
+                </div>
+                <div class="tech-tag border-ts d-flex align-items-center gap-2">
+                  <span class="ts-icon fw-bold text-white">TS</span>
+                  <span>TypeScript</span>
+                </div>
+                <div
+                  class="tech-tag border-taliwnd d-flex align-items-center gap-2"
+                >
+                  <i class="fa-solid fa-wind text-cyan"></i>
+                  <span>Tailwind</span>
+                </div>
+                <div
+                  class="tech-tag border-next d-flex align-items-center gap-2"
+                >
+                  <i class="fa-brands fa-node-js text-success"></i>
+                  <span>Next.js</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-6 d-flex justify-content-center align-items-center fade-in-left position-relative mt-5 mt-lg-0"
+          >
+            <div class="bg-circle circle-outer bg-border-outter"></div>
+            <div class="bg-circle circle-inner bg-border-inner"></div>
+
+            <div class="profile-card-wrapper position-relative">
+              <div class="tech-icon icon-react" title="React">
+                <i class="fa-brands fa-react"></i>
+              </div>
+              <div class="tech-icon icon-vue" title="Vue">
+                <i class="fa-brands fa-vuejs"></i>
+              </div>
+              <div class="tech-icon icon-code" title="Code">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div class="tech-icon icon-figma" title="Figma">
+                <i class="fa-brands fa-figma"></i>
+              </div>
+              <div class="profile-image-frame">
+                <img
+                  src="assets/imgs/WhatsApp Image 2026-07-31 at 9.45.13 PM.jpeg"
+                  alt="أحمد عيد"
+                  class="img-fluid profile-img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="discover-more d-flex flex-column align-items-center justify-content-center mt-5"
+        >
+          <span
+            class="fs-15 text-muted mb-2"
+            data-en="Discover More"
+            data-ar="اكتشف المزيد"
+            >Discover More</span
+          >
+          <a
+            href="#عني"
+            class="mouse-icon d-flex justify-content-center position-relative"
+          >
+            <span class="wheel"></span>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="btn-scrol">
+        <a
+          href="#الرئيسية"
+          class="scroll-top-btn d-flex justify-content-center align-items-center text-white rounded-circle z-1"
+        >
+          <i class="fa-solid fa-rocket rocket fs-25"></i>
+        </a>
+      </div>
+      <section class="about-section py-5 scrol" id="عني">
+        <div class="container my-container">
+          <div class="text-center mb-5">
+            <h1 class="main-title mt-1">
+              <span class="text-color" data-en="Get To" data-ar="تعرف">
+                Get To
+              </span>
+              <span
+                class="highlight primary-them-color"
+                data-en="Know Me"
+                data-ar=" عليّ"
+              >
+                To Know Me
+              </span>
+            </h1>
+            <div class="title-underline primary-them-bg"></div>
+          </div>
+
+          <div class="row g-4 align-items-start stats">
+            <div class="col-lg-6">
+              <h2
+                class="subtitle text-color mb-3"
+                data-en='I love turning ideas into <span class="primary-them-color">digital reality</span>'
+                data-ar='بحب أحول الأفكار <span class="primary-them-color">لواقع رقمي</span>'
+              >
+                I love turning ideas into
+                <span class="primary-them-color">digital reality</span>
+              </h2>
+              <p
+                class="lead-text"
+                data-en="Frontend Developer passionate about building modern, responsive, and user-friendly web applications. I have hands-on experience with HTML, CSS, Bootstrap, and JavaScript, transforming Figma designs into clean, pixel-perfect websites while continuously improving my problem-solving and development skills through real-world projects."
+                data-ar="مطور Frontend شغوف ببناء مواقع ويب حديثة ومتجاوبة وسهلة الاستخدام. أمتلك خبرة عملية في HTML وCSS وBootstrap وJavaScript، وأحوّل تصميمات Figma إلى مواقع احترافية مع الاهتمام بالتفاصيل، وأطور مهاراتي باستمرار من خلال تنفيذ مشاريع واقعية."
+              >
+                Frontend Developer passionate about building modern, responsive,
+                and user-friendly web applications. I have hands-on experience
+                with HTML, CSS, Bootstrap, and JavaScript, transforming Figma
+                designs into clean, pixel-perfect websites while continuously
+                improving my problem-solving and development skills through
+                real-world projects.
+              </p>
+
+              <p
+                class="lead-text"
+                data-en="Currently expanding my expertise in modern JavaScript and React while building a professional portfolio featuring dashboards, landing pages, and e-commerce projects. My goal is to start my career as a Frontend Developer and grow toward international opportunities."
+                data-ar="أعمل حاليًا على تطوير مهاراتي في JavaScript الحديثة وReact، مع بناء بورتفوليو احترافي يضم لوحات تحكم وصفحات هبوط ومشاريع تجارة إلكترونية. هدفي هو بدء مسيرتي المهنية كمطور Frontend والتطور حتى الوصول إلى فرص عمل دولية."
+              >
+                Currently expanding my expertise in modern JavaScript and React
+                while building a professional portfolio featuring dashboards,
+                landing pages, and e-commerce projects. My goal is to start my
+                career as a Frontend Developer and grow toward international
+                opportunities.
+              </p>
+
+              <div class="d-flex flex-wrap gap-2 mt-3 mb-4">
+                <span class="badge-soft border-hover">
+                  <i class="fa-solid fa-graduation-cap primary-them-color"></i>
+                  <span data-en="Computer Science" data-ar="حاسبات ومعلومات"
+                    >Computer Science</span
+                  >
+                </span>
+
+                <span class="badge-soft border-hover">
+                  <i class="fa-solid fa-briefcase primary-them-color"></i>
+                  <span class="stat50"></span>
+                  <span data-en="Projects" data-ar="مشروع">Projects</span>
+                </span>
+
+                <span class="badge-soft border-hover">
+                  <i class="fa-solid fa-users primary-them-color"></i>
+                  <span class="stat40"></span>
+                  <span data-en="Happy Clients" data-ar="عميل سعيد"
+                    >Happy Clients</span
+                  >
+                </span>
+              </div>
+
+              <div class="offer-card shadow-sm">
+                <div class="d-flex align-items-center gap-2 mb-3">
+                  <span
+                    ><i class="fa-solid fa-rocket primary-them-color"></i
+                  ></span>
+                  <span
+                    class="offer-card__title"
+                    data-en="What I Offer"
+                    data-ar="ما أقدمه"
+                    >What I Offer</span
+                  >
+                </div>
+                <ul class="offer-list">
+                  <li>
+                    <span
+                      data-en="Designing responsive web pages with Bootstrap"
+                      data-ar="تصميم صفحات ويب متجاوبة باستخدام Bootstrap"
+                      >Designing responsive web pages with Bootstrap</span
+                    >
+                  </li>
+                  <li>
+                    <span
+                      data-en="Clean interfaces with organized code"
+                      data-ar="واجهات نظيفة ومنظمة الكود"
+                      >Clean interfaces with organized code</span
+                    >
+                  </li>
+                  <li>
+                    <span
+                      data-en="Continuously growing my JavaScript skills"
+                      data-ar="تطوير مهاراتي المستمر في JavaScript"
+                      >Continuously growing my JavaScript skills</span
+                    >
+                  </li>
+                  <li>
+                    <span
+                      data-en="Sites that run efficiently on all devices"
+                      data-ar="مواقع تعمل بكفاءة على جميع الأجهزة"
+                      >Sites that run efficiently on all devices</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 stats">
+              <div class="code-card">
+                <div class="code-card__header">
+                  <span class="code-card__filename">Ahmed Eid.js</span>
+                  <span>
+                    <span class="dot dot-red"> </span>
+                    <span class="dot dot-yellow"> </span>
+                    <span class="dot dot-green"> </span>
+                  </span>
+                </div>
+                <pre>
+                  <span class="tok-comment" data-en="// A quick look at me" data-ar="// من أنا باختصار">// A quick look at me</span>
+<span class="tok-key">const</span> <span class=" text-main">Ahmed Eid</span> = {
+  <span class="tok-plain">name:</span> <span class="tok-string" data-en='"Ahmed Eid"' data-ar='"احمد عيد"'>"Ahmed Eid"</span>,
+  <span class="tok-plain">title:</span> <span class="tok-string">"Full-stack Developer"</span>,
+  <span class="tok-plain">location:</span> <span class="tok-string">"cairo, Egypt 🇪🇬"</span>,
+  <span class="tok-plain">skills:</span> [
+    <span class="tok-string">"HTML"</span>, <span class="tok-string">"CSS"</span>,
+    <span class="tok-string">"Bootstrap"</span>, <span class="tok-string">"JavaScript"</span>
+  ],
+  <span class="tok-plain">passion:</span> <span class="tok-string">"Building clean, responsive UIs"</span>,
+  <span class="tok-plain">available:</span> <span class="tok-bool">true</span>,
+  <span class="tok-plain">hireable:</span> <span class="tok-bool">true</span>,
+};
+ 
+                     
+<div class="d-flex  gap-2 " >
+  <span class="tok-key">export default</span>
+  <span class="text-main">Ahmed Eid</span>;
+
+</div>
+               </pre>
+              </div>
+              <div class="row g-3 mt-3">
+                <div class="col-4">
+                  <div class="stat-pill">
+                    <div class="stat-pill__num stat50 primary-them-color"></div>
+                    <div
+                      class="stat-pill__label"
+                      data-en="Projects"
+                      data-ar="مشاريع"
+                    >
+                      Projects
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="stat-pill">
+                    <div class="stat-pill__num stat8 primary-them-color"></div>
+                    <div
+                      class="stat-pill__label"
+                      data-en="Years Experience "
+                      data-ar="سنوات من الخبره"
+                    >
+                     Years Experience 
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="stat-pill">
+                    <div class="stat-pill__num stat40 primary-them-color"></div>
+                    <div
+                      class="stat-pill__label"
+                      data-en="Clients"
+                      data-ar="عميل"
+                    >
+                      Clients
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Social -->
+              <div class="d-flex gap-2 mt-4 justify-content-end">
+                <a href="./assets/imgs/WhatsApp Image 2026-07-31 at 9.45.13 PM.jpeg" class="social-icon">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/"
+                  class="social-icon"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+                <a href="https://github.com/" class="social-icon"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-5 bg-section skills">
+        <div class="container my-container">
+          <div class="text-center mb-5" id="skills">
+            <span
+              class="fs-25 primary-them-color fw-bold"
+              data-en="What I Master"
+              data-ar=" ما أتقنه"
+            >
+              What I Master</span
+            >
+            <h2
+              class="fw-bold fs-30 text-color mt-1"
+              style="font-size: 50px"
+              data-en='Skills & <span class="primary-them-color pb-2">Technologies</span>'
+              data-ar='المهارات و <span class="primary-them-color pb-2">التقنيات</span>'
+            >
+              Skills & <span class="primary-them-color pb-2">Technologies</span>
+            </h2>
+            <div class="title-underline primary-them-bg"></div>
+          </div>
+
+          <div class="row g-4 justify-content-center">
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="skill-card p-4 rounded-4 d-flex flex-column justify-content-between h-100"
+              >
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <span class="skill-icon primary-them-color"
+                    ><i class="fa-brands fa-react"></i
+                  ></span>
+                  <span class="skill-name fw-bold fs-18">React.js</span>
+                </div>
+                <div class="progress-wrapper mb-3">
+                  <div class="custom-progress">
+                    <div class="progress-bar-fill" data-width="85%"></div>
+                  </div>
+                </div>
+                <p class="skill-desc fs-15 mb-0 text-end"></p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="skill-card p-4 rounded-4 d-flex flex-column justify-content-between h-100"
+              >
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <span class="skill-icon primary-them-color"
+                    ><i class="fa-brands fa-node-js"></i
+                  ></span>
+                  <span class="skill-name fw-bold fs-18">Bootstrap</span>
+                </div>
+                <div class="progress-wrapper mb-3">
+                  <div class="custom-progress">
+                    <div class="progress-bar-fill" data-width="95%"></div>
+                  </div>
+                </div>
+                <p
+                  class="skill-desc fs-15 mb-0 text-end"
+                  data-en="Building advanced SSR and SSG applications"
+                  data-ar="تطوير تطبيقات SSR و SSG متقدمة"
+                >
+                  Building advanced SSR and SSG applications
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="skill-card p-4 rounded-4 d-flex flex-column justify-content-between h-100"
+              >
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <span class="skill-icon primary-them-color"
+                    ><i class="fa-solid fa-code"></i
+                  ></span>
+                  <span class="skill-name fw-bold fs-18">TypeScript</span>
+                </div>
+                <div class="progress-wrapper mb-3">
+                  <div class="custom-progress">
+                    <div class="progress-bar-fill" data-width="75%"></div>
+                  </div>
+                </div>
+                <p
+                  class="skill-desc fs-15 mb-0 text-end"
+                  data-en="Writing safe, professionally organized code"
+                  data-ar="كتابة كود آمن ومنظم بشكل احترافي"
+                >
+                  Writing safe, professionally organized code
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="skill-card p-4 rounded-4 d-flex flex-column justify-content-between h-100"
+              >
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <span class="skill-icon primary-them-color"
+                    ><i class="fa-solid fa-wind"></i
+                  ></span>
+                  <span class="skill-name fw-bold fs-18">Tailwind CSS</span>
+                </div>
+                <div class="progress-wrapper mb-3">
+                  <div class="custom-progress">
+                    <div class="progress-bar-fill" data-width="80%"></div>
+                  </div>
+                </div>
+                <p
+                  class="skill-desc fs-15 mb-0 text-end"
+                  data-en="Designing modern interfaces at high speed"
+                  data-ar="تصميم واجهات حديثة بسرعة عالية"
+                >
+                  Designing modern interfaces at high speed
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="skill-card p-4 rounded-4 d-flex flex-column justify-content-between h-100"
+              >
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <span class="skill-icon primary-them-color">
+                    <i class="fa-solid fa-n"></i>
+                  </span>
+                  <span class="skill-name fw-bold fs-18">Next.js</span>
+                </div>
+
+                <div class="progress-wrapper mb-3">
+                  <div class="custom-progress">
+                    <div class="progress-bar-fill" data-width="70%"></div>
+                  </div>
+                </div>
+
+                <p
+                  class="skill-desc fs-15 mb-0 text-end"
+                  data-en="Building modern React applications with server-side rendering and routing"
+                  data-ar="بناء تطبيقات React الحديثة باستخدام Server-Side Rendering وRouting"
+                >
+                  Building modern React applications with server-side rendering
+                  and routing
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="skill-card p-4 rounded-4 d-flex flex-column justify-content-between h-100"
+              >
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <span class="skill-icon primary-them-color"
+                    ><i class="fa-brands fa-figma"></i
+                  ></span>
+                  <span class="skill-name fw-bold text-white fs-18">Figma</span>
+                </div>
+                <div class="progress-wrapper mb-3">
+                  <div class="custom-progress">
+                    <div class="progress-bar-fill" data-width="60%"></div>
+                  </div>
+                </div>
+                <p
+                  class="skill-desc fs-15 mb-0 text-end"
+                  data-en="Designing professional interfaces and interactive prototypes"
+                  data-ar="تصميم واجهات احترافية ونماذج تفاعلية"
+                >
+                  Designing professional interfaces and interactive prototypes
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row g-3 justify-content-center mt-5">
+            <!-- HTML5 -->
+            <div class="col-6 col-sm-3 col-lg-2">
+              <div
+                class="tool-card p-3 rounded-4 d-flex flex-column align-items-center justify-content-center gap-2"
+              >
+                <span class="tool-icon text-danger fs-25"
+                  ><i class="fa-brands fa-html5"></i
+                ></span>
+                <span class="tool-name fw-bold fs-15">HTML5</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-3 col-lg-2">
+              <div
+                class="tool-card p-3 rounded-4 d-flex flex-column align-items-center justify-content-center gap-2"
+              >
+                <span class="tool-icon text-info fs-25"
+                  ><i class="fa-brands fa-css3-alt"></i
+                ></span>
+                <span class="tool-name fw-bold fs-15">CSS3</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-3 col-lg-2">
+              <div
+                class="tool-card p-3 rounded-4 d-flex flex-column align-items-center justify-content-center gap-2"
+              >
+                <span class="tool-icon text-warning fs-25"
+                  ><i class="fa-brands fa-js"></i
+                ></span>
+                <span class="tool-name fw-bold fs-15">JavaScript</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-3 col-lg-2">
+              <div
+                class="tool-card p-3 rounded-4 d-flex flex-column align-items-center justify-content-center gap-2"
+              >
+                <span class="tool-icon text-danger fs-25"
+                  ><i class="fa-brands fa-git-alt"></i
+                ></span>
+                <span class="tool-name fw-bold fs-15">Git</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-5" id="الأعمال">
+        <div class="container my-container">
+          <div class="text-center mb-5">
+            <span
+              class="fs-25 primary-them-color fw-bold"
+              data-en="My Work"
+              data-ar=" أعمالي"
+            >
+              My Work</span
+            >
+            <h2
+              class="fw-bold fs-30 text-color mt-1"
+              style="font-size: 50px"
+              data-en='Projects <span class="primary-them-color pb-2">Showcase</span>'
+              data-ar='معرض <span class="primary-them-color pb-2">المشاريع</span>'
+            >
+              Projects <span class="primary-them-color pb-2">Showcase</span>
+            </h2>
+            <div class="title-underline primary-them-bg"></div>
+          </div>
+
+          <!-- أزرار الفلترة مع إضافة data-filter -->
+          <div
+            class="d-flex flex-wrap gap-3 justify-content-center align-items-center filter-buttons-container"
+          >
+            <button
+              class="btn btn-work shadow-sm active"
+              data-filter="الكل"
+              data-en="All"
+              data-ar="الكل"
+            >
+              All
+            </button>
+            <button
+              class="btn btn-work"
+              data-filter="موقع ويب"
+              data-en="Website"
+              data-ar="موقع ويب"
+            >
+              Website
+            </button>
+            <button
+              class="btn btn-work"
+              data-filter="تطبيق"
+              data-en="Apps"
+              data-ar="التطبيقات"
+            >
+              Apps
+            </button>
+            <button
+              class="btn btn-work"
+              data-filter="تجارة"
+              data-en="E-Commerce"
+              data-ar="التجارة الإلكترونية"
+            >
+              E-Commerce
+            </button>
+          </div>
+
+          <div class="container">
+            <div class="row g-2 pt-3">
+              <div class="row g-4 mb-5" id="projects-row">
+              </div>
+              <div class="d-flex justify-content-center mt-4">
+                <a
+                  href="#تواصل"
+                  class="btn-cta-green"
+                  data-en="Let's Start Your Next Project"
+                  data-ar="لنبدأ مشروعك القادم"
+                >
+                  Let's Start Your Next Project
+                  <i class="fas fa-rocket ms-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="الخبرة"
+        class="experience-section py-5 position-relative overflow-hidden"
+        dir="rtl"
+      >
+        <div
+          class="container my-container max-w-7xl position-relative z-index-10"
+        >
+          <div class="text-center mb-5">
+            <span class="fs-25 primary-them-color fw-bold">
+              <span data-en="My Career Path" data-ar="مسيرتي المهنية"
+                >My Career Path</span
+              ></span
+            >
+            <h2
+              class="fw-bold fs-30 text-color mt-1"
+              style="font-size: 50px"
+              data-en='Work <span class="primary-them-color pb-2">Experience</span>'
+              data-ar='الخبرة <span class="primary-them-color pb-2">العملية</span>'
+            >
+              Work <span class="primary-them-color pb-2">Experience</span>
+            </h2>
+            <div class="title-underline primary-them-bg"></div>
+          </div>
+
+          <div class="timeline-wrapper">
+            <div
+              class="timeline-line position-absolute start-50 translate-middle-x h-100 rounded-pill d-none d-md-block"
+            ></div>
+
+            <div class="timeline-items">
+              <!-- <div
+                class="timeline-item row g-0 align-items-center flex-row-reverse"
+                id="experience-1"
+              >
+                <div class="col-md-6 d-none d-md-block"></div>
+                <div class="col-12 col-md-6 p-4 position-relative">
+                  <div
+                    class="timeline-dot d-none d-md-block timeline-dot-left dot-pink position-absolute rounded-circle"
+                  ></div>
+
+                  <div
+                    class="project-card-dark rounded-4 p-4 position-relative border-pink-hover"
+                  >
+                    <i
+                      class="arrow arrow-left d-none d-md-block fs-25 position-absolute fa-solid fa-caret-left"
+                    ></i>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between mb-4 flex-row-reverse"
+                    >
+                      <div
+                        class="icon-box icon-pink d-flex align-items-center justify-content-center rounded-3"
+                      >
+                        <i class="fa-solid fa-code fs-5"></i>
+                      </div>
+                      <span
+                        class="badge-custom badge-pink"
+                        data-en="2019 - 2020"
+                        data-ar="2019 - 2020"
+                        >2019 - 2020</span
+                      >
+                    </div>
+
+                    <h3
+                      class="card-main-title h4 mb-2 fw-bold text-color"
+                      data-en="Frontend Developer"
+                      data-ar="مطور واجهات أمامية"
+                    >
+                      Frontend Developer
+                    </h3>
+                    <p
+                      class="mb-3 fw-medium primary-them-color"
+                      data-en="Digital Marketing Agency"
+                      data-ar="وكالة التسويق الرقمي"
+                    >
+                      Digital Marketing Agency
+                    </p>
+                    <p
+                      class="card-desc mb-4"
+                      data-en="Developed interactive, responsive user interfaces for multiple marketing campaigns. Collaborated with the design team to turn mockups into working applications."
+                      data-ar="تطوير واجهات مستخدم تفاعلية ومتجاوبة لحملات تسويقية متعددة. التعاون مع فريق التصميم لتحويل النماذج إلى تطبيقات عملية."
+                    >
+                      Developed interactive, responsive user interfaces for
+                      multiple marketing campaigns. Collaborated with the design
+                      team to turn mockups into working applications.
+                    </p>
+
+                    <div
+                      class="tags-container d-flex flex-wrap gap-2 justify-content-start"
+                    >
+                      <span class="tag-badge"> HTML/CSS </span>
+                      <span class="tag-badge">JavaScript</span>
+                      <span class="tag-badge">jQuery</span>
+                      <span class="tag-badge">Bootstrap</span>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+
+              <div
+                class="timeline-item row g-0 align-items-center position-relative"
+                id="experience-2"
+              >
+                <div class="col-md-6 d-none d-md-block"></div>
+                <div
+                  class="timeline-dot d-none d-md-block timeline-dot-right dot-orange position-absolute rounded-circle"
+                ></div>
+                <div class="col-12 col-md-6 p-4 position-relative">
+                  <div
+                    class="project-card-dark rounded-4 p-4 position-relative border-orange-hover"
+                  >
+                    <i
+                      class="arrow arrow-right d-none d-md-block fs-25 position-absolute fa-solid fa-caret-right"
+                    ></i>
+
+                    <div
+                      class="d-flex align-items-center justify-content-between mb-4 flex-row-reverse"
+                    >
+                      <div
+                        class="icon-box icon-pink d-flex align-items-center justify-content-center rounded-3"
+                      >
+                        <i class="fa-solid fa-code fs-5"></i>
+                      </div>
+
+                      <span
+                        class="badge-custom badge-pink"
+                        data-en="2025 - Present"
+                        data-ar="2025 - الآن"
+                      >
+                        2025 - Present
+                      </span>
+                    </div>
+
+                    <h3
+                      class="card-main-title h4 mb-2 fw-bold text-color"
+                      data-en="Frontend Developer"
+                      data-ar="مطور واجهات أمامية"
+                    >
+                      Frontend Developer
+                    </h3>
+
+                    <p
+                      class="mb-3 fw-medium primary-them-color"
+                      data-en="Personal Projects"
+                      data-ar="مشاريع شخصية"
+                    >
+                      Personal Projects
+                    </p>
+
+                    <p
+                      class="card-desc mb-4"
+                      data-en="Building responsive and modern web applications using HTML5, CSS3, Bootstrap, and JavaScript. Developing interactive user interfaces with multilingual support, dark/light mode, animations, responsive layouts, and clean, maintainable code."
+                      data-ar="تطوير مواقع ويب حديثة ومتجاوبة باستخدام HTML5 وCSS3 وBootstrap وJavaScript، مع إنشاء واجهات مستخدم تفاعلية تدعم تعدد اللغات والوضع الليلي والنهاري، وإضافة الحركات التفاعلية، وتصميمات متجاوبة، وكتابة كود منظم وسهل الصيانة."
+                    >
+                      Building responsive and modern web applications using
+                      HTML5, CSS3, Bootstrap, and JavaScript. Developing
+                      interactive user interfaces with multilingual support,
+                      dark/light mode, animations, responsive layouts, and
+                      clean, maintainable code.
+                    </p>
+
+                    <div
+                      class="tags-container d-flex flex-wrap gap-2 justify-content-start"
+                    >
+                      <span class="tag-badge">HTML5</span>
+                      <span class="tag-badge">CSS3</span>
+                      <span class="tag-badge">Bootstrap 5</span>
+                      <span class="tag-badge">JavaScript</span>
+                      <span class="tag-badge">Git & GitHub</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="stat-ex p-5 mt-5  bg-section statEx">
+        <div class="row g-4 text-center justify-content-center">
+          <div class="col-12 col-md-3">
+            <div class="stat-item d-flex flex-column align-items-center">
+              <div
+                class="icon-box d-flex align-items-center justify-content-center mb-3 rounded-4"
+              >
+                <i class="fa-solid fa-diagram-project text-white fs-3"></i>
+              </div>
+              <h2 class="stat-number fw-bold mb-1 stat50"></h2>
+              <p
+                class="stat-label mb-0"
+                data-en="Completed Projects"
+                data-ar="مشروع مكتمل"
+              >
+                Completed Projects
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-3">
+            <div class="stat-item d-flex flex-column align-items-center">
+              <div
+                class="icon-box d-flex align-items-center justify-content-center mb-3 rounded-4"
+              >
+                <i class="fa-solid fa-users text-white fs-3"></i>
+              </div>
+              <h2 class="stat-number fw-bold mb-1 stat40"></h2>
+              <p
+                class="stat-label mb-0"
+                data-en="Happy Clients"
+                data-ar="عميل سعيد"
+              >
+                Happy Clients
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-3">
+            <div class="stat-item d-flex flex-column align-items-center">
+              <div
+                class="icon-box d-flex align-items-center justify-content-center mb-3 rounded-4"
+              >
+                <i class="fa-regular fa-clock text-white fs-3"></i>
+              </div>
+              <h2 class="stat-number fw-bold mb-1 stat8"></h2>
+              <p
+                class="stat-label mb-0"
+                data-en="Years of Experience"
+                data-ar="سنوات خبرة"
+              >
+                Years of Experience
+              </p>
+            </div>
+          </div>
+
+          <!-- <div class="col-6 col-md-3">
+            <div class="stat-item d-flex flex-column align-items-center">
+              <div
+                class="icon-box d-flex align-items-center justify-content-center mb-3 rounded-4"
+              >
+                <i class="fa-solid fa-trophy text-white fs-3"></i>
+              </div>
+              <h2 class="stat-number fw-bold mb-1 stat12"></h2>
+              <p
+                class="stat-label mb-0"
+                data-en="Awards & Recognition"
+                data-ar="جائزة وتقدير"
+              >
+                Awards & Recognition
+              </p>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <section id="تواصل" class="position-relative pt-4">
+        <div
+          class="container my-container max-w-7xl position-relative z-index-10"
+        >
+          <div class="text-center mb-5">
+            <span
+              class="fs-25 primary-them-color fw-bold"
+              data-en="Contact Me"
+              data-ar=" تواصل معي"
+            >
+              Contact Me</span
+            >
+            <h2
+              class="fw-bold fs-30 text-color mt-1"
+              style="font-size: 50px"
+              data-en='Let&#39;s Start <span class="primary-them-color pb-2">Your Project</span>'
+              data-ar='يلا نبدأ <span class="primary-them-color pb-2">مشروعك</span>'
+            >
+              Let's Start
+              <span class="primary-them-color pb-2">Your Project</span>
+            </h2>
+            <div class="title-underline primary-them-bg mb-3"></div>
+            <span
+              class="fw-bold text-color"
+              data-en="Have a project idea? Let's talk and turn it into reality"
+              data-ar="عندك فكرة مشروع؟ تعالى نتكلم ونحولها لواقع"
+              >Have a project idea? Let's talk and turn it into reality</span
+            >
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-5 col-md-12">
+              <div class="d-flex flex-column gap-3">
+                <div
+                  class="info-card p-4 rounded-4 d-flex align-items-center gap-2"
+                >
+                  <div
+                    class="icon-wrapper gradient-bg-1 text-white d-flex justify-content-center align-items-center rounded-3"
+                  >
+                    <i class="fa-solid fa-envelope fs-5"></i>
+                  </div>
+                  <a
+                    class="text-decoration-none"
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=ahmedelnobey455@gmail.com&su=Portfolio%20Inquiry"
+                    target="_blank"
+                  >
+                    <h6
+                      class="m-0 fw-bold card-desc"
+                      data-en="Email"
+                      data-ar="البريد الإلكتروني"
+                    >
+                      Email
+                    </h6>
+                    <p class="m-0 text-color small fw-medium">
+                      ahmedelnobey455@gmail.com
+                    </p>
+                    <small
+                      class="card-desc m-0"
+                      style="font-size: 0.75rem"
+                      data-en="Ready to reply within 24 hours"
+                      data-ar="جاهز للرد خلال 24 ساعة"
+                      >Ready to reply within 24 hours</small
+                    >
+                  </a>
+                </div>
+
+                <div
+                  class="info-card p-4 rounded-4 d-flex gap-2 align-items-center"
+                >
+                  <div
+                    class="icon-wrapper gradient-bg-2 text-white d-flex justify-content-center align-items-center rounded-3"
+                  >
+                    <i class="fa-solid fa-phone fs-5"></i>
+                  </div>
+                  <a class="text-decoration-none" href="tel:01228185321">
+                    <h6
+                      class="m-0 fw-bold card-desc"
+                      data-en="Phone Number"
+                      data-ar="رقم الهاتف"
+                    >
+                      Phone Number
+                    </h6>
+                    <p class="mb-0 text-color small fw-medium">
+                      <span>+</span>20 12288963156
+                    </p>
+                    <small
+                      class="card-desc"
+                      style="font-size: 0.75rem"
+                      data-en="Available 9 AM - 5 PM"
+                      data-ar="متاح من 9 صباحاً - 5 مساءً"
+                      >Available 9 AM - 5 PM</small
+                    >
+                  </a>
+                </div>
+
+                <div
+                  class="info-card p-4 rounded-4 gap-2 d-flex align-items-center"
+                >
+                  <div
+                    class="icon-wrapper gradient-bg-1 text-white d-flex justify-content-center align-items-center rounded-3"
+                  >
+                    <i class="fa-solid fa-location-dot fs-5"></i>
+                  </div>
+                  <a
+                    class="text-decoration-none"
+                    href="https://maps.google.com/?q=El+Talbiya,Giza,Egypt"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <h6
+                      class="m-0 fw-bold card-desc"
+                      data-en="Location"
+                      data-ar="الموقع"
+                    >
+                      Location
+                    </h6>
+                    <p
+                      class="mb-0 text-color small fw-medium"
+                      data-en="Cairo, Egypt"
+                      data-ar="القاهرة، مصر"
+                    >
+                      Cairo, Egypt
+                    </p>
+                    <small
+                      class="card-desc"
+                      style="font-size: 0.75rem"
+                      data-en="Available for remote work"
+                      data-ar="متاح للعمل عن بعد"
+                      >Available for remote work</small
+                    >
+                  </a>
+                </div>
+
+                <div class="social-card p-4 rounded-4 text-center mt-2">
+                  <h6
+                    class="fw-bold mb-3 card-desc"
+                    data-en="Follow Me"
+                    data-ar="تابعني على"
+                  >
+                    Follow Me
+                  </h6>
+                  <div class="d-flex justify-content-center gap-2">
+                    <a
+                      href="https:wa.me/201288963156"
+                      target="_blank"
+                      class="social-icon"
+                    >
+                      <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      class="social-icon"
+                      ><i class="fa-brands fa-linkedin-in"></i
+                    ></a>
+                    <a
+                      href="https://github.com/"
+                      target="_blank"
+                      class="social-icon"
+                      ><i class="fa-brands fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-7 col-md-12">
+              <div class="contact-form-card p-4 p-md-5 rounded-4">
+                <form id="contactForm">
+                  <div class="mb-3">
+                    <label
+                      class="form-label fw-semibold small"
+                      data-en="Full Name"
+                      data-ar="الاسم الكامل"
+                      >Full Name</label
+                    >
+                    <input
+                      type="text"
+                      name="from_name"
+                      class="form-control custom custom-input"
+                      placeholder="Enter your full name"
+                      data-en-placeholder="Enter your full name"
+                      data-ar-placeholder="أدخل اسمك الكامل"
+                      required
+                    />
+                  </div>
+
+                  <div class="mb-3">
+                    <label
+                      class="form-label fw-semibold small"
+                      data-en="Email Address"
+                      data-ar="البريد الإلكتروني"
+                      >Email Address</label
+                    >
+                    <input
+                      type="email"
+                      name="from_email"
+                      class="form-control custom custom-input"
+                      placeholder="enter your email address"
+                      required
+                    />
+                  </div>
+
+                  <div class="mb-3">
+                    <label
+                      class="form-label fw-semibold small"
+                      data-en="Phone Number"
+                      data-ar="رقم الهاتف"
+                      >Phone Number</label
+                    >
+                    <input
+                      type="tel"
+                      name="phone"
+                      class="form-control custom custom-input text-start"
+                      dir="ltr"
+                      placeholder="+20 1288963156"
+                      required
+                    />
+                  </div>
+
+                  <div class="mb-3">
+                    <label
+                      class="form-label fw-semibold text-color small"
+                      data-en="Project Type"
+                      data-ar="نوع المشروع"
+                      >Project Type</label
+                    >
+                    <select
+                      class="form-select custom custom-select"
+                      name="project_type"
+                      required
+                    >
+                      <option
+                        selected
+                        disabled
+                        hidden
+                        data-en="Select project type"
+                        data-ar="اختر نوع المشروع"
+                      >
+                        Select project type
+                      </option>
+                      <option data-en="Website" data-ar="موقع ويب">
+                        Website
+                      </option>
+                      <option data-en="Web App" data-ar="تطبيق ويب">
+                        Web App
+                      </option>
+                      <option data-en="Design (UI/UX)" data-ar="تصميم (UI/UX)">
+                        Design (UI/UX)
+                      </option>
+                      <option data-en="Mobile App" data-ar="تطبيق جوال">
+                        Mobile App
+                      </option>
+                      <option
+                        data-en="Technical Consultation"
+                        data-ar="استشارة تقنية"
+                      >
+                        Technical Consultation
+                      </option>
+                    </select>
+                  </div>
+
+                  <div class="mb-3">
+                    <label
+                      class="form-label fw-semibold text-color small"
+                      data-en="Expected Budget"
+                      data-ar="الميزانية المتوقعة"
+                      >Expected Budget</label
+                    >
+                    <select
+                      class="form-select custom custom-select"
+                      name="budget"
+                      required
+                    >
+                      <option
+                        selected
+                        data-en="Select budget"
+                        data-ar="اختر الميزانية"
+                      >
+                        Select budget
+                      </option>
+                      <option data-en="Under $650" data-ar="أقل من 20,000 جنيه">
+                        Under $650
+                      </option>
+                      <option
+                        data-en="$650 - $1,600"
+                        data-ar="20,000 - 50,000 جنيه"
+                      >
+                        $650 - $1,600
+                      </option>
+                      <option
+                        data-en="$1,600 - $3,200"
+                        data-ar="50,000 - 100,000 جنيه"
+                      >
+                        $1,600 - $3,200
+                      </option>
+                      <option
+                        data-en="Over $3,200"
+                        data-ar="أكثر من 100,000 جنيه"
+                      >
+                        Over $3,200
+                      </option>
+                    </select>
+                  </div>
+
+                  <div class="mb-4">
+                    <label
+                      class="form-label fw-semibold text-color small"
+                      data-en="Project Details"
+                      data-ar="تفاصيل المشروع"
+                      >Project Details</label
+                    >
+                    <textarea
+                      name="message"
+                      class="form-control custom custom-input bg-textarea"
+                      rows="4"
+                      placeholder="Tell me about your project..."
+                      data-en-placeholder="Tell me about your project..."
+                      data-ar-placeholder="احكيلي تفاصيل مشروعك..."
+                      required
+                    ></textarea>
+                  </div>
+
+                  <button
+                    type="submit"
+                    class="btn-cta-green w-100 fw-bold py-3 rounded-3 text-white d-flex justify-content-center align-items-center gap-2"
+                    data-en="Send Message"
+                    data-ar="ابعت الرسالة"
+                  >
+                    Send Message <i class="fa-solid fa-paper-plane"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-section pt-4 pb-3 mt-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-12 col-md-6 col-lg-5">
+            <div class="brand-logo d-flex align-items-center mb-3 gap-2">
+              <div class="icon-main text-white primary-them-bg rounded-3">
+                <img
+                  src="./assets/imgs/WhatsApp Image 2026-07-31 at 9.45.13 PM.jpeg"
+                  class="w-100 h-100 rounded-3"
+                  alt=""
+                />
+              </div>
+              <h3
+                class="h4 mb-0 primary-them-color fw-bold"
+                data-en="Ahmed Eid"
+                data-ar="احمد عيد"
+              >
+                Ahmed Eid
+              </h3>
+            </div>
+            <p
+              class="text-color opacity-75 leading-relaxed"
+              data-en="I believe programming is an art — my goal isn't just writing code, but creating a smooth user experience that leaves an impact. I combine aesthetic design with strong performance to deliver a complete final product."
+              data-ar="أؤمن بأن البرمجة فن، هدفي مش بس كتابة كود بل خلق تجربة مستخدم سلسة بتسيب أثر. بدمج التصميم الجمالي مع الأداء القوي عشان أقدم منتج نهائي متكامل."
+            >
+              I believe programming is an art — my goal isn't just writing code,
+              but creating a smooth user experience that leaves an impact. I
+              combine aesthetic design with strong performance to deliver a
+              complete final product.
+            </p>
+
+            <div class="status d-flex align-items-center mt-2 gap-3">
+              <span class="pulse-dot-green"></span>
+              <span
+                class="text-light"
+                data-en='Currently working on: <strong class="primary-them-color">Myself</strong>'
+                data-ar='أعمل حالياً على: <strong class="primary-them-color">نفسي </strong>'
+                >Currently working on:
+                <strong class="primary-them-color">Myself</strong></span
+              >
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-3 offset-lg-1">
+            <h5
+              class="fw-bold mb-3 text-color"
+              data-en="Quick Links"
+              data-ar="روابط سريعة"
+            >
+              Quick Links
+            </h5>
+            <ul class="list-unstyled footer-links">
+              <li>
+                <a href="#الرئيسية" data-en="Home" data-ar="الرئيسية">Home</a>
+              </li>
+              <li><a href="#عني" data-en="About" data-ar="عني">About</a></li>
+              <li><a href="#" data-en="Work" data-ar="الأعمال">Work</a></li>
+              <li>
+                <a href="#الأعمال" data-en="Experience" data-ar="الخبرة"
+                  >Experience</a
+                >
+              </li>
+              <li>
+                <a href="#التوصيات" data-en="Testimonials" data-ar="التوصيات"
+                  >Testimonials</a
+                >
+              </li>
+              <li>
+                <a href="#تواصل" data-en="Contact" data-ar="تواصل">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-3">
+            <h5
+              class="fw-bold mb-3 text-color"
+              data-en="Services"
+              data-ar="الخدمات"
+            >
+              Services
+            </h5>
+            <ul class="list-unstyled footer-links">
+              <li>
+                <a href="#" data-en="Web Development" data-ar="تطوير الويب"
+                  >Web Development</a
+                >
+              </li>
+              <li>
+                <a href="#" data-en="App Development" data-ar="تطوير التطبيقات"
+                  >App Development</a
+                >
+              </li>
+              <li>
+                <a href="#" data-en="UI/UX Design" data-ar="تصميم UI/UX"
+                  >UI/UX Design</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  data-en="Technical Consulting"
+                  data-ar="الاستشارات التقنية"
+                  >Technical Consulting</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  data-en="Performance Optimization"
+                  data-ar="تحسين الأداء"
+                  >Performance Optimization</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  data-en="Maintenance & Support"
+                  data-ar="الصيانة والدعم"
+                  >Maintenance & Support</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="border-secondary my-4" />
+
+        <div class="d-flex justify-content-between align-items-center">
+          <p
+            class="mb-0 text-muted small"
+            data-en="&copy; 2026 Ahmed Eid. All rights reserved."
+            data-ar="&copy; 2026 أحمد عيد. جميع الحقوق محفوظة."
+          >
+            &copy; 2025 Ahmed Eid. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
